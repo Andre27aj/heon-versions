@@ -10,7 +10,7 @@ Ce dépôt ne contient que les installeurs de Héon et ce mode d’emploi.
 2. Ouvrir le `.dmg` et glisser **Héon** dans le dossier **Applications**.
 3. **Premier lancement** : Héon n’est pas notarié par Apple (c’est payant), macOS le bloque donc la première fois.
    - Ouvrir Héon une fois (macOS affiche un avertissement), puis aller dans **Réglages Système → Confidentialité et sécurité**, tout en bas : **« Ouvrir quand même »** à côté de Héon, et confirmer.
-   - Ou, dans le Terminal : `xattr -dr com.apple.quarantine /Applications/Héon.app`
+   - Ou, dans le Terminal : `xattr -dr com.apple.quarantine /Applications/Heon.app`
 4. Au premier lancement, Héon propose d’importer tes espaces, onglets épinglés et favoris d’**Arc** (et, dans les réglages, depuis Chrome, Brave, Edge ou Safari).
 
 ## Mises à jour

@@ -4,7 +4,7 @@
 
 <br>
 
-**Onglets verticaux, espaces, pages qui s’ouvrent avant même que tu cliques.**<br>
+**Onglets verticaux, espaces, barre de commande. Natif macOS, 6 Mo.**<br>
 Gratuit. Sans pub. Sans compte. Sans pistage.
 
 <br>
@@ -16,8 +16,9 @@ Gratuit. Sans pub. Sans compte. Sans pistage.
 <a href="https://github.com/Andre27aj/heon-versions/releases/latest"><img src="https://img.shields.io/github/v/release/Andre27aj/heon-versions?label=version&color=c47cff" alt="Dernière version"></a>
 <img src="https://img.shields.io/badge/macOS-puce_Apple_(M1→M4)-a99cff" alt="macOS, puce Apple">
 <img src="https://img.shields.io/badge/prix-gratuit-f58fb6" alt="Gratuit">
+<img src="https://img.shields.io/badge/natif-Swift_%2B_WebKit-ff8fb1" alt="Natif : Swift + WebKit">
 
-<sub>Mac avec puce Apple · mises à jour automatiques et signées · <a href="#-in-english">English below</a></sub>
+<sub>Mac avec puce Apple · macOS 14 ou plus récent · mises à jour automatiques et signées · <a href="#-in-english">English below</a></sub>
 
 </div>
 
@@ -29,8 +30,8 @@ Gratuit. Sans pub. Sans compte. Sans pistage.
 <tr>
 <td width="50%" valign="top">
 
-### ⚡ Instantané
-Héon prépare la page pendant que tu tapes ou que tu survoles un lien : quand tu appuies sur Entrée, elle est **déjà là**. Les onglets endormis se réveillent en un clin d’œil.
+### ⚡ Natif et léger
+Écrit en **Swift**, avec le moteur de Safari (WebKit) : **6 Mo** au lieu de 250, démarrage instantané, moins de mémoire, plus d’autonomie sur portable. Les onglets endormis se réveillent en un clin d’œil.
 
 </td>
 <td width="50%" valign="top">
@@ -44,7 +45,7 @@ Onglets **verticaux**, rangés en **espaces** (Perso, Travail…) et en dossiers
 <td valign="top">
 
 ### 🛡️ Privé
-**Bloqueur de pubs et de traqueurs** intégré, HTTPS partout, DNS chiffré, liens nettoyés. Pas de compte, pas de statistiques : rien n’est envoyé au développeur.
+**Bloqueur de pubs, de traqueurs et de bandeaux de cookies** intégré au moteur, HTTPS partout, liens nettoyés. Pas de compte, pas de statistiques : rien n’est envoyé au développeur.
 
 </td>
 <td valign="top">
@@ -106,18 +107,30 @@ C’est tout : ensuite, Héon se met à jour **tout seul**. Quand une version so
 - **Ctrl+Tab** : sélecteur avec aperçus, du plus récent au plus ancien.
 - **⌘ clic** ou clic molette : nouvel onglet en arrière-plan, même sur les sites qui gèrent leurs liens en JavaScript. Ses vidéos attendent que tu ailles sur l’onglet.
 - **Peek** (⇧ clic sur un lien) : la page s’ouvre par-dessus, sans créer d’onglet.
-- **Split view**, plusieurs fenêtres, sélection de plusieurs onglets à la fois (fermer, épingler, déplacer…).
+- **Split view**, plusieurs fenêtres, **groupes d’onglets**, onglets **renommés** (double-clic) et titres rendus propres automatiquement.
 - **Little Héon** : un lien cliqué dans une autre app s’ouvre dans une petite fenêtre ; règles « tel site → tel espace ».
+
+</details>
+
+<details>
+<summary><b>Nouveau dans la version native (1.0)</b></summary>
+
+- **Centre de contrôle du site** (à gauche de l’adresse) : bloqueur, mode sombre, zoom, Boost, permissions, capture, partage.
+- **Dossiers vivants** : tes pull requests GitHub, un flux RSS ou une chaîne YouTube qui se remplissent tout seuls.
+- **Agenda en direct** : ta prochaine réunion en bas de la barre latérale, avec « Rejoindre ».
+- **Synchro iCloud chiffrée** entre tes Macs, **Bibliothèque** (archive, historique, captures, téléchargements), **lueur de chargement**, thème qui suit macOS.
+- **IA facultative** (ta clé Anthropic) : ranger et renommer les onglets, résumer une page. Rien n’est envoyé sans ton accord.
+- **AppleScript**, liens `heon://` et commande `heon` pour Raccourcis, Raycast ou le Terminal.
+- Interface en **français ou en anglais**.
 
 </details>
 
 <details>
 <summary><b>Vitesse</b></summary>
 
-- Pré-rendu de la page choisie dans la barre de commande : Entrée l’affiche instantanément.
-- Complétion de l’adresse pendant la frappe, comme dans Chrome.
-- Connexion ouverte dès le survol d’un lien, et vers tes sites les plus visités au démarrage.
-- Les onglets endormis commencent à charger quand tu les survoles, sans bruit ni indicateur.
+- App native de 6 Mo : démarrage instantané, peu de mémoire.
+- Complétion de l’adresse pendant la frappe.
+- Les onglets endormis commencent à charger quand tu les survoles ; les onglets inactifs s’endorment (jamais ta musique ni tes messageries).
 
 </details>
 
@@ -143,11 +156,12 @@ C’est tout : ensuite, Héon se met à jour **tout seul**. Quand une version so
 <details>
 <summary><b>Vie privée et sécurité</b></summary>
 
-- **Bloqueur de publicités et de traqueurs**, désactivable site par site (clic droit sur la page).
-- HTTPS uniquement, DNS chiffré, paramètres de pistage retirés des liens, protection contre l’hameçonnage et les sites malveillants.
+- **Bloqueur de publicités, de traqueurs et de bandeaux de cookies** (listes au choix, dont la liste française), désactivable site par site.
+- HTTPS uniquement, paramètres de pistage retirés des liens, protection contre l’hameçonnage et les sites malveillants.
 - **Fenêtre privée** (⇧⌘N), **espace privé** (⇧⌘P), **profil séparé** par espace (comptes et cookies à part).
-- Chaque page tourne isolée (bac à sable Chromium) ; caméra, micro, position… sont demandés site par site.
-- Moteur **Chromium** suivi de près : Héon prévient dès qu’un correctif de sécurité sort.
+- Chaque page tourne isolée (bac à sable de WebKit) ; caméra, micro… sont demandés site par site.
+- Moteur **WebKit** (celui de Safari), mis à jour avec macOS.
+- **Synchro iCloud chiffrée** entre tes Macs (phrase secrète, personne d’autre ne peut lire).
 - Tout se règle dans **Addons et sécurité** (⇧⌘A).
 
 </details>
@@ -202,9 +216,8 @@ Pas pour l’instant : Héon est fait pour les Mac avec puce Apple.
 <details>
 <summary><b>Ce qui ne marche pas encore</b></summary>
 
-- Netflix, Disney+ et autres vidéos protégées.
 - Clés d’accès (passkeys) : utiliser le mot de passe (« Essayer une autre méthode »).
-- Extensions Chrome : une partie seulement fonctionne (bouton « Ajouter à Héon » sur le Chrome Web Store).
+- Extensions : format WebExtension (la plupart des extensions Chrome récentes), macOS 15.4 ou plus récent.
 
 </details>
 
@@ -219,7 +232,7 @@ Mettre **Héon** (dans Applications) à la corbeille. Les données restent dans 
 
 ## 🇬🇧 In English
 
-**Héon** is a free, fast and calm web browser for Apple Silicon Macs, inspired by Arc: vertical tabs, spaces and folders, a ⌘T command bar, a Ctrl+Tab switcher with previews, split view, reader mode, a built-in ad & tracker blocker, and pages that are pre-loaded before you even click. No account, no telemetry. Imports your Arc spaces, and data from Chrome, Brave, Edge or Safari. The interface is in French.
+**Héon** is a free, fast and calm web browser for Apple Silicon Macs (macOS 14+), inspired by Arc and **native: Swift + WebKit, a 6 MB app**. Vertical tabs, spaces and folders, a ⌘T command bar, a Ctrl+Tab switcher with previews, split view, Peek, reader mode, a site control center, live folders (GitHub, RSS, YouTube), your next meeting in the sidebar, encrypted iCloud sync, optional AI, and a built-in ad, tracker and cookie-banner blocker. No account, no telemetry. Imports your Arc spaces, and data from Chrome, Brave, Edge or Safari. Interface in English or French.
 
 **[Download for Mac](https://github.com/Andre27aj/heon-versions/releases/latest/download/Heon-arm64.dmg)**, drag Héon into Applications, then on first launch allow it in *System Settings → Privacy & Security → Open Anyway* (the app is not notarized yet). Updates are automatic and signed.
 

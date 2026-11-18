@@ -99,6 +99,21 @@ C’est tout : ensuite, Héon se met à jour **tout seul**. Quand une version so
 
 ## 🧰 Tout ce qu’il sait faire
 
+<details open>
+<summary><b>🆕 Nouveau (1.0.9 → 1.0.11)</b></summary>
+
+- **Adresses et cartes bancaires** remplies automatiquement dans les formulaires (livraison, paiement). Le numéro de carte est chiffré sur ton Mac, **Touch ID** est demandé à chaque fois, seulement sur les sites en HTTPS ; le cryptogramme n’est jamais enregistré.
+- **Liste de lecture** (⇧⌘D) avec une **copie lisible hors ligne** ; retrouvée dans la Bibliothèque (⌥⌘Y).
+- **Enregistrer la page** (⇧⌘S) en PDF (pages ou une seule longue page), image PNG, archive web, HTML ou texte.
+- **Ouvrir un fichier** du Mac (⇧⌘O) : PDF, HTML, images, vidéos…
+- **Vidéos .mov sur Google Drive** lues directement (iPhone, HEVC, ProRes), même quand Drive affiche « traitement en cours ».
+- **⇧⌘T** rouvre aussi les onglets fermés avant un redémarrage, les onglets épinglés et les onglets archivés.
+- **Ouvrir la page dans** Safari, Chrome… ; **QR code** de la page pour l’iPhone ; **note** par site ; **toujours couper le son** d’un site ; **⌃M** coupe le son de l’onglet.
+- Recherche : **⌘G / ⇧⌘G** résultat suivant / précédent, **⌘E** chercher la sélection ; **⌘T « @ »** ne cherche que dans les onglets ouverts.
+- **⌥⌘U** code source, **⌘.** arrêter le chargement, **⇧⌘] / ⇧⌘[** onglet suivant / précédent, **dupliquer l’onglet**, correcteur d’**orthographe** et lecture **à voix haute**.
+
+</details>
+
 <details>
 <summary><b>Onglets et organisation</b></summary>
 
@@ -139,17 +154,20 @@ C’est tout : ensuite, Héon se met à jour **tout seul**. Quand une version so
 
 - **Mode lecture** (⌥⌘R) : taille du texte, police, thèmes clair / sépia / gris / nuit, temps de lecture.
 - **Vitesse des vidéos** sur chaque vidéo (touches S / D / R), **image dans l’image automatique** quand tu changes d’onglet.
-- **YouTube** sans miniatures ni Shorts (optionnel), **traduction** de page (⌥⌘T), lecteur **PDF**, **impression**.
+- **YouTube** sans miniatures ni Shorts (optionnel), **traduction** de page (⌥⌘T), lecteur **PDF**, **impression**, **enregistrement** de la page (⇧⌘S).
+- **Google Drive** : les vidéos .mov se lisent directement, sans attendre Drive.
+- **Liste de lecture** hors ligne (⇧⌘D).
 - **Boosts** : ton propre CSS / JS pour n’importe quel site.
 
 </details>
 
 <details>
-<summary><b>Mots de passe</b></summary>
+<summary><b>Mots de passe, adresses et cartes</b></summary>
 
 - Enregistrement et remplissage automatiques, chiffrés dans le trousseau macOS ; **Touch ID** pour les afficher.
 - **Mots de passe forts** proposés à l’inscription, enregistrés tout seuls.
 - Import / export avec l’app **Mots de passe** d’Apple (donc ton iPhone) et en CSV depuis les autres navigateurs.
+- **Adresses** et **cartes bancaires** proposées dans les formulaires, enregistrées quand tu en tapes une nouvelle (Héon › Adresses et cartes…). Cartes : numéro chiffré, Touch ID à chaque remplissage, HTTPS seulement, cryptogramme jamais gardé.
 
 </details>
 
@@ -177,7 +195,8 @@ C’est tout : ensuite, Héon se met à jour **tout seul**. Quand une version so
 | ⌘ clic · ⇧⌘ clic | Ouvrir le lien en arrière-plan · et y aller |
 | ⇧ clic | Ouvrir le lien dans Peek |
 | ⌘N / ⇧⌘N | Nouvelle fenêtre / fenêtre privée |
-| ⌘W / ⇧⌘T | Fermer / rouvrir un onglet |
+| ⌘W / ⇧⌘T | Fermer / rouvrir un onglet (même après un redémarrage) |
+| ⇧⌘] / ⇧⌘[ | Onglet suivant / précédent |
 | ⌘D | Épingler / désépingler |
 | ⌘S | Afficher / masquer la barre latérale |
 | ⌃⇧= | Split view |
@@ -186,7 +205,14 @@ C’est tout : ensuite, Héon se met à jour **tout seul**. Quand une version so
 | ⌥⌘P | Mots de passe |
 | ⌥⌘L | Téléchargements |
 | ⇧⌘A | Addons et sécurité |
-| ⌘F, ⌘±, ⌘0 | Recherche, zoom |
+| ⌘F, ⌘G / ⇧⌘G, ⌘E | Rechercher dans la page, résultat suivant / précédent, chercher la sélection |
+| ⌘±, ⌘0 | Zoom |
+| ⇧⌘S | Enregistrer la page (PDF, image, archive web…) |
+| ⇧⌘O | Ouvrir un fichier |
+| ⇧⌘D / ⌥⌘Y | Ajouter à la liste de lecture / l’ouvrir |
+| ⌃M | Couper le son de l’onglet |
+| ⌘. | Arrêter le chargement |
+| ⌥⌘U | Code source de la page |
 
 </details>
 
@@ -232,7 +258,7 @@ Mettre **Héon** (dans Applications) à la corbeille. Les données restent dans 
 
 ## 🇬🇧 In English
 
-**Héon** is a free, fast and calm web browser for Apple Silicon Macs (macOS 14+), inspired by Arc and **native: Swift + WebKit, a 6 MB app**. Vertical tabs, spaces and folders, a ⌘T command bar, a Ctrl+Tab switcher with previews, split view, Peek, reader mode, a site control center, live folders (GitHub, RSS, YouTube), your next meeting in the sidebar, encrypted iCloud sync, optional AI, and a built-in ad, tracker and cookie-banner blocker. No account, no telemetry. Imports your Arc spaces, and data from Chrome, Brave, Edge or Safari. Interface in English or French.
+**Héon** is a free, fast and calm web browser for Apple Silicon Macs (macOS 14+), inspired by Arc and **native: Swift + WebKit, a 6 MB app**. Vertical tabs, spaces and folders, a ⌘T command bar, a Ctrl+Tab switcher with previews, split view, Peek, reader mode, a site control center, live folders (GitHub, RSS, YouTube), your next meeting in the sidebar, encrypted iCloud sync, optional AI, and a built-in ad, tracker and cookie-banner blocker. New: address and payment-card autofill (Touch ID, HTTPS only), an offline reading list, Save Page As PDF/image/web archive (⇧⌘S), .mov playback on Google Drive, ⇧⌘T that survives restarts, page QR codes, per-site notes and mute. No account, no telemetry. Imports your Arc spaces, and data from Chrome, Brave, Edge or Safari. Interface in English or French.
 
 **[Download for Mac](https://github.com/Andre27aj/heon-versions/releases/latest/download/Heon-arm64.dmg)**, drag Héon into Applications, then on first launch allow it in *System Settings → Privacy & Security → Open Anyway* (the app is not notarized yet). Updates are automatic and signed.
 

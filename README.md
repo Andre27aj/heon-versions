@@ -75,7 +75,7 @@ Onglets **verticaux**, rangés en **espaces** (Perso, Travail…) et en dossiers
 
 <br><br>
 
-**Split view** : deux pages côte à côte (⌃⇧=).
+**Split view** : deux pages côte à côte (⌃⇧=, ou glisser un onglet sur un autre), séparation réglable à la souris.
 
 <img src="assets/split.jpg" alt="Deux pages côte à côte" width="90%">
 
@@ -100,8 +100,10 @@ C’est tout : ensuite, Héon se met à jour **tout seul**. Quand une version so
 ## 🧰 Tout ce qu’il sait faire
 
 <details open>
-<summary><b>🆕 Nouveau (1.0.9 → 1.0.12)</b></summary>
+<summary><b>🆕 Nouveau (1.0.9 → 1.0.13)</b></summary>
 
+- **Split view plus simple** : glisse un onglet sur un autre dans la barre latérale pour les ouvrir côte à côte, et règle la largeur en tirant la séparation (curseur ⟺).
+- **Réglages redessinés** dans le style de Héon : navigation à gauche, couleurs de l’espace, interrupteurs.
 - **YouTube** : **SponsorBlock** intégré (les passages sponsorisés sont sautés, bouton « Revoir »), **Return YouTube Dislike** (le nombre de « je n’aime pas » revient) et **DeArrow** (titres et miniatures sans putaclic). Rien à installer.
 - **Correcteur LanguageTool** dans les champs de texte : une pastille indique les fautes, un clic propose les corrections (texte envoyé à languagetool.org, jamais en navigation privée ni dans les mots de passe ; désactivable).
 - **Adresses et cartes bancaires** remplies automatiquement dans les formulaires (livraison, paiement). Le numéro de carte est chiffré sur ton Mac, **Touch ID** est demandé à chaque fois, seulement sur les sites en HTTPS ; le cryptogramme n’est jamais enregistré.

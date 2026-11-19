@@ -100,8 +100,9 @@ C’est tout : ensuite, Héon se met à jour **tout seul**. Quand une version so
 ## 🧰 Tout ce qu’il sait faire
 
 <details open>
-<summary><b>🆕 Nouveau (1.0.9 → 1.0.14)</b></summary>
+<summary><b>🆕 Nouveau (1.0.9 → 1.0.15)</b></summary>
 
+- **IA sans clé à coller** : connecte-toi avec ton compte **OpenRouter** (Claude, Gemini, GPT, payés sur tes crédits), ou utilise une **IA gratuite sur ton Mac** avec Ollama ou LM Studio (rien ne sort du Mac). Idées reprises de [Search](https://github.com/driceroland/Search) (MIT).
 - **IA avec ton abonnement ChatGPT** : dans Réglages › IA, choisis « Codex » — Héon passe par Codex, l’outil officiel d’OpenAI, et consomme ton abonnement au lieu d’une clé API.
 - **Split view plus simple** : glisse un onglet sur un autre dans la barre latérale pour les ouvrir côte à côte, et règle la largeur en tirant la séparation (curseur ⟺).
 - **Réglages redessinés** dans le style de Héon : navigation à gauche, couleurs de l’espace, interrupteurs.
@@ -139,7 +140,7 @@ C’est tout : ensuite, Héon se met à jour **tout seul**. Quand une version so
 - **Dossiers vivants** : tes pull requests GitHub, un flux RSS ou une chaîne YouTube qui se remplissent tout seuls.
 - **Agenda en direct** : ta prochaine réunion en bas de la barre latérale, avec « Rejoindre ».
 - **Synchro iCloud chiffrée** entre tes Macs, **Bibliothèque** (archive, historique, captures, téléchargements), **lueur de chargement**, thème qui suit macOS.
-- **IA facultative** (ta clé Anthropic, ou ton abonnement ChatGPT via Codex) : ranger et renommer les onglets, résumer une page. Rien n’est envoyé sans ton accord.
+- **IA facultative** (ton compte OpenRouter, un modèle sur ton Mac, ton abonnement ChatGPT via Codex, ou ta clé Anthropic) : ranger et renommer les onglets, résumer une page. Rien n’est envoyé sans ton accord.
 - **AppleScript**, liens `heon://` et commande `heon` pour Raccourcis, Raycast ou le Terminal.
 - Interface en **français ou en anglais**.
 

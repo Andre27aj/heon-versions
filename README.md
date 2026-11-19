@@ -100,7 +100,7 @@ C’est tout : ensuite, Héon se met à jour **tout seul**. Quand une version so
 ## 🧰 Tout ce qu’il sait faire
 
 <details open>
-<summary><b>🆕 Nouveau (1.0.9 → 1.0.20)</b></summary>
+<summary><b>🆕 Nouveau (1.0.9 → 1.0.21)</b></summary>
 
 - **Masquer un élément pour de bon** (⇧⌘H) : clique sur un pop-up, une bannière ou une barre inutile, il disparaît sur ce site, aussi aux prochaines visites.
 - **Rechercher dans tous les onglets** (⌥⌘F, ou ⌘T puis « / ») : un mot, et la liste des onglets qui le contiennent, avec un extrait.
@@ -108,6 +108,7 @@ C’est tout : ensuite, Héon se met à jour **tout seul**. Quand une version so
 - **Rapports de plantage** : quand une page plante, copie le rapport ou signale-le sur GitHub (rien n’est envoyé sans toi).
 - **⌃Tab plus rapide et plus sobre** : seulement les onglets ouverts depuis le lancement ; celui où tu t’arrêtes est préparé d’avance, et tes 3 derniers restent prêts. Au lancement, plus aucune page ne se charge toute seule. Passage d’un onglet à l’autre en fondu, avec le dernier aperçu pendant le réveil (1.0.20).
 - **Plein écran vidéo dans son propre bureau** : la fenêtre de Héon se masque pendant le plein écran, ⌘Tab ramène sur la vidéo (1.0.20).
+- **⌫ ne fait plus quitter les jeux** (Tusmo, Wordle…) : hors d’un champ de texte, la touche ne revient plus à la page précédente, comme dans Safari (1.0.21).
 - **⌘T plus clair** : moins de suggestions, les sites visités récemment en premier, et « Demander à l’IA » juste sous le premier choix (**⌘↩** pour y aller directement). Les menus sont rangés comme dans Safari et Chrome.
 - **IA sur ton Mac par défaut** : gratuite, sans compte, rien ne sort du Mac (Ollama ou LM Studio). Au choix aussi : ton compte **OpenRouter** (Claude, Gemini, GPT, sans clé à coller). Idées reprises de [Search](https://github.com/driceroland/Search) (MIT).
 - **IA avec ton abonnement ChatGPT** : dans Réglages › IA, choisis « Codex » — Héon passe par Codex, l’outil officiel d’OpenAI, et consomme ton abonnement au lieu d’une clé API.

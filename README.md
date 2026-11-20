@@ -100,7 +100,7 @@ C’est tout : ensuite, Héon se met à jour **tout seul**. Quand une version so
 ## 🧰 Tout ce qu’il sait faire
 
 <details open>
-<summary><b>🆕 Nouveau (1.0.9 → 1.0.28)</b></summary>
+<summary><b>🆕 Nouveau (1.0.9 → 1.0.29)</b></summary>
 
 - **Masquer un élément pour de bon** (⇧⌘H) : clique sur un pop-up, une bannière ou une barre inutile, il disparaît sur ce site, aussi aux prochaines visites.
 - **Rechercher dans tous les onglets** (⌥⌘F, ou ⌘T puis « / ») : un mot, et la liste des onglets qui le contiennent, avec un extrait.
@@ -114,6 +114,7 @@ C’est tout : ensuite, Héon se met à jour **tout seul**. Quand une version so
 - **Lecteur PDF amélioré** : rotation des pages, compteur de pages, ajuster à la largeur ; ⌘S et « Télécharger » donnent le vrai fichier PDF avec tes annotations ; zoom au pincement dans les deux sens et ⌘+ / ⌘− / ⌘0 sur le PDF (1.0.25–1.0.26).
 - **IA locale plus fiable** : « Demander à l’IA » répond avec les modèles qui réfléchissent (qwen3…), et le panneau se ferme (✕ ou Échap). **Plein écran vidéo** : un seul Échap pour en sortir (1.0.27).
 - **L’IA dans un onglet** : « Demander à l’IA » ouvre un onglet Héon IA, la réponse s’écrit au fil de l’eau et la conversation continue ; **Peek et Little Héon** prennent le style de Héon (1.0.28).
+- **Notifications des sites** (Gmail, Messenger…) dans macOS, **profils séparés** (Héon › Profil), **restauration après un plantage** et **aperçu avant impression** (⌘P) (1.0.29).
 - **⌘T plus clair** : moins de suggestions, les sites visités récemment en premier, et « Demander à l’IA » juste sous le premier choix (**⌘↩** pour y aller directement). Les menus sont rangés comme dans Safari et Chrome.
 - **IA sur ton Mac par défaut** : gratuite, sans compte, rien ne sort du Mac (Ollama ou LM Studio). Au choix aussi : ton compte **OpenRouter** (Claude, Gemini, GPT, sans clé à coller). Idées reprises de [Search](https://github.com/driceroland/Search) (MIT).
 - **IA avec ton abonnement ChatGPT** : dans Réglages › IA, choisis « Codex » — Héon passe par Codex, l’outil officiel d’OpenAI, et consomme ton abonnement au lieu d’une clé API.

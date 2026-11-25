@@ -100,7 +100,7 @@ C’est tout : ensuite, Héon se met à jour **tout seul**. Quand une version so
 ## 🧰 Tout ce qu’il sait faire
 
 <details open>
-<summary><b>🆕 Nouveau (1.0.9 → 1.0.35)</b></summary>
+<summary><b>🆕 Nouveau (1.0.9 → 1.0.36)</b></summary>
 
 - **Masquer un élément pour de bon** (⇧⌘H) : clique sur un pop-up, une bannière ou une barre inutile, il disparaît sur ce site, aussi aux prochaines visites.
 - **Rechercher dans tous les onglets** (⌥⌘F, ou ⌘T puis « / ») : un mot, et la liste des onglets qui le contiennent, avec un extrait.
@@ -121,6 +121,10 @@ C’est tout : ensuite, Héon se met à jour **tout seul**. Quand une version so
 - **Corrigé** : les vidéos qui chargeaient sans fin dans un onglet préparé à l’avance, après un rechargement (1.0.33).
 - **Corrigé** : un clic n’ouvre plus deux onglets ; ⌘+clic ouvre bien en arrière-plan (YouTube, applis web) ; ⌃Tab ne propose plus les onglets fermés ; plus de roue de chargement au survol d’un onglet (1.0.34).
 - **Corrigé** : ⌘W dans une fenêtre sans onglet ferme la fenêtre, et agit toujours sur la fenêtre au premier plan (1.0.35).
+- **Aperçu des liens** : garde ⇧ appuyé sur un lien pour voir un résumé de la page sans l’ouvrir (1.0.36).
+- **Cherche pour moi** : dans ⌘T, ⌥↩ lance une recherche ; Héon lit plusieurs sites et répond en citant ses sources (1.0.36).
+- **Titres courts** et **mémoire** : l’IA raccourcit les titres d’onglets à rallonge et se souvient de ce que tu lui demandes de retenir (liste effaçable dans Réglages › IA) (1.0.36).
+- **Mots de passe** dans les Réglages, avec ajout et modification à la main ; plus d’adresse proposée sur un champ e-mail seul (1.0.36).
 - **⌘T plus clair** : moins de suggestions, les sites visités récemment en premier, et « Demander à l’IA » juste sous le premier choix (**⌘↩** pour y aller directement). Les menus sont rangés comme dans Safari et Chrome.
 - **IA sur ton Mac par défaut** : gratuite, sans compte, rien ne sort du Mac (Ollama ou LM Studio). Au choix aussi : ton compte **OpenRouter** (Claude, Gemini, GPT, sans clé à coller). Idées reprises de [Search](https://github.com/driceroland/Search) (MIT).
 - **IA avec ton abonnement ChatGPT** : dans Réglages › IA, choisis « Codex » — Héon passe par Codex, l’outil officiel d’OpenAI, et consomme ton abonnement au lieu d’une clé API.

@@ -100,7 +100,7 @@ C’est tout : ensuite, Héon se met à jour **tout seul**. Quand une version so
 ## 🧰 Tout ce qu’il sait faire
 
 <details open>
-<summary><b>🆕 Nouveau (1.0.9 → 1.0.38)</b></summary>
+<summary><b>🆕 Nouveau (1.0.9 → 1.0.39)</b></summary>
 
 - **Masquer un élément pour de bon** (⇧⌘H) : clique sur un pop-up, une bannière ou une barre inutile, il disparaît sur ce site, aussi aux prochaines visites.
 - **Rechercher dans tous les onglets** (⌥⌘F, ou ⌘T puis « / ») : un mot, et la liste des onglets qui le contiennent, avec un extrait.
@@ -127,6 +127,7 @@ C’est tout : ensuite, Héon se met à jour **tout seul**. Quand une version so
 - **Mots de passe** dans les Réglages, avec ajout et modification à la main ; plus d’adresse proposée sur un champ e-mail seul (1.0.36).
 - **Contrôle de sécurité des mots de passe** : Héon repère ceux qui ont fuité sur Internet (Have I Been Pwned, sans jamais envoyer le mot de passe), réutilisés ou trop simples, et prévient (1.0.37).
 - **Traduction de page par l'IA** (⌥⌘T) : les textes sont traduits sur place, la mise en page reste, bouton « Original » ; **intros et génériques YouTube** sautés ; **Boost rapide** : couleurs et police d'un site en un clic (1.0.38).
+- **Personnalisation** (Réglages › Apparence) : contour de la page sélectionnée (style, couleur, épaisseur), icône du Dock, grain, arrondi et marges des pages, sidebar à droite ou compacte, taille et police de l'interface, thème de nuit, galerie de thèmes partageables, page « nouvel onglet » avec heure et raccourcis (1.0.39).
 - **⌘T plus clair** : moins de suggestions, les sites visités récemment en premier, et « Demander à l’IA » juste sous le premier choix (**⌘↩** pour y aller directement). Les menus sont rangés comme dans Safari et Chrome.
 - **IA sur ton Mac par défaut** : gratuite, sans compte, rien ne sort du Mac (Ollama ou LM Studio). Au choix aussi : ton compte **OpenRouter** (Claude, Gemini, GPT, sans clé à coller). Idées reprises de [Search](https://github.com/driceroland/Search) (MIT).
 - **IA avec ton abonnement ChatGPT** : dans Réglages › IA, choisis « Codex » — Héon passe par Codex, l’outil officiel d’OpenAI, et consomme ton abonnement au lieu d’une clé API.
